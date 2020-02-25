@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''
         python -m venv myenv
-        .\\myenv\\Scripts\\activate
+        .\\\\\\myenv\\\\\\Scripts\\\\\\activate
         pip install -r requirements.txt
         '''
       }
